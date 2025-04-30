@@ -64,3 +64,50 @@ a.button {
 a.button:hover {
   background-color: #00cc66;
 }
+
+.technologies {
+  margin-top: 40px;
+}
+
+.technologies h2 {
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 2.5rem;
+  color: #00ff88;
+}
+
+.contact {
+  margin-top: 40px;
+}
+
+.contact h2 {
+  color: #00ff88;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .tech-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume .button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
